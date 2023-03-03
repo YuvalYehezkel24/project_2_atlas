@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(0, 0, 0, 0.804);
+}
+
+header {
+    background: rgb(206, 128, 73);
+}
+
+header .container i {
+    text-shadow: 2px 2px 2px white;
+    font-size: 2.8em;
+    margin-left: 8px;
+}
+
+header .container h2 {
+    text-shadow: 2px 2px 2px white;
+    font-family: 'Arima', cursive;
+    font-size: 2.8em;
+    text-decoration: none;
+}
+
+header .container .links a {
+    color: white;
+    text-decoration: none;
+    padding: 0 8px;
+    font-size: 1.2em;
+    font-family: 'Arima', cursive;
+    cursor: pointer;
+    transition: 700ms;
+}
+
+header .container .links a:hover {
+    color: brown;
+    transform: scale(1.2);
+}
+
+main {
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.568), rgba(0, 0, 0, 0.568)), url(images/map_back.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+footer {
+    min-height: 50px;
+    background: rgb(206, 128, 73);
+    font-family: 'Arima', cursive;
+    color: black;
+    text-shadow: 2px 2px 2px white;
+    font-weight: bold;
+}
+
+footer h4 {
+    font-size: 0.9em;
+    padding-top: 4px;
+}
+
+footer .links a i {
+    font-size: 1em;
+    margin-right: 12px;
+    color: brown;
+}
+
+
+@media (max-width:768px) {
+
+    header nav .row .logo {
+        width: 90%;
+        font-size: 0.7em;
+        margin-bottom: 4px;
+    }
+
+    header nav .row .links {
+        margin-bottom: 4px;
+    }
+}
